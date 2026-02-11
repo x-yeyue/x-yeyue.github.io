@@ -1,0 +1,22 @@
+# 站点基础信息（必填，改成你的）
+title: x_yeyue的博客  # 博客标题
+subtitle: 用Yun主题搭建的简约博客  # 副标题（可选）
+author: x_yeyue  # 你的昵称
+language: zh-CN  # 语言改成中文
+timezone: Asia/Shanghai  # 时区（中国时区）
+
+# 导航栏（常用链接，按需加/删）
+menu:
+  首页: /
+  归档: /archives/
+  关于我: /about/
+
+# 头像（可选，替换成你的图片链接，本地图片放 source/images/ 里，写 /images/头像.jpg 即可）
+avatar: 
+  url: /images/avatar.jpg
+  rounded: true
+  opacity: 1
+
+# 页脚信息（可选）
+footer:
+  text: 版权所有 © 2026 x_yeyue  # 页脚文字
