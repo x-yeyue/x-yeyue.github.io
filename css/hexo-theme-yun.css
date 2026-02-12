@@ -140,7 +140,7 @@ html.dark {
   --banner-char-color: #fff;
   --banner-char-bg-color: rgba(0,0,0,0.5);
   --banner-char-hover-color: #000;
-  --post-card-bg-color: rgba(27,31,46,0.9);
+  --post-card-bg-color: rgba(27,31,46,0.8);
   --post-card-shadow: 0 1px 8px rgba(27,31,46,0.1);
   --sidebar-bg-color: rgba(27,31,46,0.95);
   --sidebar-bg-image: url("");
@@ -191,7 +191,7 @@ html.dark {
   color: #000;
 }
 body {
-  font-family: 'PingFang SC', 'Microsoft YaHei', Roboto, Arial, sans-serif;
+  font-family: 'Maple Mono Normal NF CN', STHeiti, Arial, sans-serif;
   font-weight: 400;
   margin: 0;
   padding: 0;
@@ -355,7 +355,7 @@ input {
   height: 100vh;
 }
 #banner .char {
-  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
+  font-family: 'Maple Mono Normal NF CN', STZhongsong, STKaiti, KaiTi, Roboto, serif;
   font-size: var(--banner-char-size, 1rem);
   font-weight: 900;
   background-color: var(--banner-char-bg-color);
@@ -807,7 +807,7 @@ input {
   padding-left: 0.6rem;
 }
 .link-url .link-blog {
-  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
+  font-family: 'Maple Mono Normal NF CN', STZhongsong, STKaiti, KaiTi, Roboto, serif;
   font-weight: 900;
   margin: 0.42rem 0;
 }
@@ -1272,7 +1272,7 @@ input {
   }
 }
 :root {
-  --post-card-bg-color: rgba(255,255,255,0.9);
+  --post-card-bg-color: rgba(255,255,255,0.8);
   --post-card-shadow: 0 0 10px rgba(255,255,255,0.1);
 }
 .post-card {
@@ -1496,7 +1496,7 @@ input {
   padding: 10px;
   font-size: 1.5rem;
   font-weight: 900;
-  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
+  font-family: 'Maple Mono Normal NF CN', STZhongsong, STKaiti, KaiTi, Roboto, serif;
 }
 .post-header .post-title .icon {
   width: 1.6rem;
@@ -1551,7 +1551,7 @@ input {
 .markdown-body {
   color: var(--hty-text-color);
   font-weight: 400;
-  font-family: 'PingFang SC', 'Microsoft YaHei', Roboto, Arial, sans-serif;
+  font-family: 'Maple Mono Normal NF CN', STHeiti, Arial, sans-serif;
   padding: 1rem 0;
 }
 .markdown-body code,
@@ -1786,7 +1786,7 @@ input {
   line-height: 1.8;
   padding: 1rem;
   font-size: 1.1rem;
-  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
+  font-family: 'Maple Mono Normal NF CN', STZhongsong, STKaiti, KaiTi, Roboto, serif;
 }
 .post-toc ol {
   list-style: none;
@@ -1805,9 +1805,6 @@ input {
 }
 .post-toc ol .toc-child {
   font-size: 1rem;
-  overflow: hidden;
-  transition: max-height 0.6s ease-in;
-  max-height: 0;
 }
 .post-toc ol .toc-item.active>.toc-link {
   color: #f2711c;
@@ -1984,7 +1981,7 @@ input {
 }
 .site-name {
   color: var(--hty-text-color);
-  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
+  font-family: 'Maple Mono Normal NF CN', STZhongsong, STKaiti, KaiTi, Roboto, serif;
   font-weight: 900;
 }
 .site-subtitle {
@@ -2111,7 +2108,7 @@ html.dark {
   color: var(--hty-text-color);
   display: block;
   text-align: center;
-  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
+  font-family: 'Maple Mono Normal NF CN', STZhongsong, STKaiti, KaiTi, Roboto, serif;
   font-weight: bold;
   padding: 0.5rem;
   border-top: 1px solid var(--hty-secondary-text-color);
@@ -2122,6 +2119,25 @@ html.dark {
 }
 #say #say-from {
   display: block;
+}
+.notice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Maple Mono Normal NF CN', STZhongsong, STKaiti, KaiTi, Roboto, serif;
+  font-weight: bold;
+  padding: 1rem;
+  margin: 1rem auto;
+  border: 1px solid #000;
+  max-width: calc(900px - 2rem);
+  background-color: rgba(255,255,255,0.3);
+}
+@media screen and (max-width: 768px) {
+  .notice {
+    border-left-width: 0px;
+    border-right-width: 0px;
+  }
 }
 iframe.bilibili-video {
   width: 100%;
@@ -2266,7 +2282,7 @@ iframe.bilibili-video {
   box-sizing: border-box;
   width: 90%;
   max-width: 800px;
-  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
+  font-family: 'Maple Mono Normal NF CN', STZhongsong, STKaiti, KaiTi, Roboto, serif;
   font-weight: 900;
   text-align: center;
 }
@@ -2324,7 +2340,7 @@ iframe.bilibili-video {
 }
 .girl-item .girl-from {
   font-size: 12px;
-  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
+  font-family: 'Maple Mono Normal NF CN', STZhongsong, STKaiti, KaiTi, Roboto, serif;
   font-weight: bold;
   color: var(--hty-secondary-text-color);
 }
