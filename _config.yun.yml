@@ -1,9 +1,13 @@
-# # 站点基础信息（必填，改成你的）
-# title: x_yeyue的博客  # 博客标题
-# subtitle: 用Yun主题搭建的简约博客  # 副标题（可选）
-# author: x_yeyue  # 你的昵称
-# language: zh-CN  # 语言改成中文
-# timezone: Asia/Shanghai  # 时区（中国时区）
+
+title: x_yeyue的博客  # 博客标题
+subtitle: 用Yun主题搭建的简约博客  # 副标题（可选）
+author: x_yeyue  # 你的昵称
+language: zh-CN  # 语言改成中文
+timezone: Asia/Shanghai  # 时区（中国时区）
+
+head:
+  css: 
+    fonts: https://chinese-fonts-cdn.deno.dev/packages/maple-mono-cn/dist/MapleMono-CN-Regular/result.css
 
 # # 导航栏（常用链接，按需加/删）
 # menu:
@@ -11,38 +15,83 @@
 #   归档: /archives/
 #   关于我: /about/
 
-# # 头像（可选，替换成你的图片链接，本地图片放 source/images/ 里，写 /images/头像.jpg 即可）
-# avatar: 
-#   url: /images/avatar.jpg
-#   rounded: true
-#   opacity: 1
-
-# # 页脚信息（可选）
-# footer:
-#   text: 版权所有 © 2026 x_yeyue  # 页脚文字
+# 主题色
 mode: auto
 
+# 头像
 avatar:
+  enable: true
   url: /images/avatar.jpg
+  rounded: true
+  opacity: 1
   status:
     enable: true
     emoji: 🌑
     message: Looking for dawn.
 
+# 开篇横幅
+banner:
+  enable: true
+  title: 
+    - x
+    - ye
+    - yue
+    - 的
+    - 小
+    - 站
+  subtitle: 记录生活与技术的小角落
+  border:
+    enable: true
+    color: '#f0f0f0'
+  clouds:
+    enable: true
+    color: '#f0f0f0'
+  go_down:
+    enable: true
+    icon: ri:arrow-down-s-line
+
+# 公告
+notice:
+  enable: true
+  content: Thanks for playing my game!
+  border:
+    enable: true
+    color: '#f0f0f0'
+
+# 字体
+font:
+  cdn:
+    enable: true
+    lib:
+      - https://chinese-fonts-cdn.deno.dev/packages/maple-mono-cn/dist/MapleMono-CN-Regular/result.css
+  serif: 
+    family: '''Maple Mono Normal NF CN'', STZhongsong, STKaiti, KaiTi, Roboto, serif'   
+    weight: 900
+  sans_serif:
+    family: '''Maple Mono Normal NF CN'', STHeiti, Arial, sans-serif'
+    weight: 400
+  monosapce:
+    family: '''Maple Mono Normal NF CN'', Courier, Consolas, Monaco, monospace'
+    weight: 400
+
+# 点击文章图片，放大预览
+medium_zoom: true
+
 reward:
   enable: true
+  icon: ri:hand-coin-line
   comment: 我很可爱，请给我钱
   methods:
     - name: 支付宝
-      path: None # https://cdn.yunyoujun.cn/img/donate/alipay-qrcode.jpg
+      path: /images/alipay.jpg
       color: '#00A3EE'
       icon: ri:alipay-line
     - name: QQ 支付
-      path: None # https://cdn.yunyoujun.cn/img/donate/qqpay-qrcode.png
+      path: /images/qq_pay.png
       color: '#12B7F5'
       icon: ri:qq-line
     - name: 微信支付
-      path: None # https://cdn.yunyoujun.cn/img/donate/wechatpay-qrcode.jpg
+      path: /images/wechat_pay.png
       color: '#2DC100'
       icon: ri:wechat-pay-line
 
@@ -88,7 +137,10 @@ giscus:
   emit-metadata: 0
   theme: light
 
-# footer:
+footer:
+  text: 版权所有 © 2026 x_yeyue  # 页脚文字
+  powered:
+    enable: true
 #   since: 2016
 #   icon:
 #     url: https://sponsors.yunyoujun.cn
@@ -121,6 +173,24 @@ engine_search:
 #   enable: true
 #   url: https://github.com/YunYouJun/yunyoujun.github.io/tree/hexo/source/
 
+post_card:
+  enable: true
+  opacity: 0.8
+
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at: true
+  categories: true
+  tags: true
+
+toc:
+  list_number: true
+  max_depth: 6
+  min_depth: 1
+  placeholder: 很遗憾，咱没写啥目录
+  collapse: false
+
 albums:
   enable: true
 
@@ -143,6 +213,41 @@ tags:
   部落: '#DD306A'
   科幻: midnightblue
   蚂蚁森林: '#54a892'
+
+types:
+  link:
+    color: blue
+    icon: ri:external-link-line
+  bilibili:
+    color: '#FF8EB3'
+    icon: ri:bilibili-line
+  douban:
+    color: '#007722'
+    icon: ri:douban-line
+  github:
+    color: black
+    icon: ri:github-line
+  netease-cloud-music:
+    color: '#C10D0C'
+    icon: ri:netease-cloud-music-line
+  notion:
+    color: black
+    icon: ri:notion
+  twitter:
+    color: '#1da1f2'
+    icon: ri:twitter-line
+  wechat:
+    color: '#1AAD19'
+    icon: ri:wechat-2-line
+  weibo:
+    color: '#E6162D'
+    icon: ri:weibo-line
+  yuque:
+    color: '#25b864'
+    icon: ant-design:yuque-outlined
+  zhihu:
+    color: '#0084FF'
+    icon: ri:zhihu-line
 
 categories:
   云游的小视频: '#FB7299'
@@ -192,3 +297,57 @@ social:
     color: '#8E71C1'
 # pjax:
 #   enable: true
+
+# 代码一键复制
+codeblock:
+  copy_btn: true
+
+# 版权信息
+creative_commons:
+  license: by-nc-sa
+  post: true
+  language: deed.zh
+  clipboard: true
+
+# 默哀
+mourn:
+  enable: true
+  days:
+    - 4-4
+
+# 字数统计
+wordcount:
+  enable: true
+  count: true
+  time: true
+
+# 词云
+wordcloud:
+  enable: true
+  height: 350
+
+# 数学公式（KaTeX）配置
+katex:
+  enable: true        # 全局开启 KaTeX 支持（但仅在文章中启用时才加载资源）
+  cdn:               # 国内可访问的 CDN 地址（替换默认谷歌 CDN，避免加载失败）
+    css: https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
+    js: https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
+    auto_render: https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js
+  options:           # KaTeX 渲染选项（保持默认即可）
+    delimiters:
+      - left: '$$'
+        right: '$$'
+        display: true
+      - left: '$'
+        right: '$'
+        display: false
+    throwOnError: false
+    errorColor: '#cc0000'
+
+# 烟花特效
+fireworks:
+  enable: true
+  colors:
+    - '102, 167, 221'
+    - '62, 131, 225'
+    - '33, 78, 194'
