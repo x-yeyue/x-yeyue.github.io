@@ -3,6 +3,7 @@ import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
   lang: 'zh-CN',
   title: 'x_yeyue 的小站',
+  subtitle: '',
   url: 'https://x-yeyue.github.io/',
   author: {
     name: 'x_yeyue',
@@ -107,6 +108,7 @@ export default defineSiteConfig({
   sponsor: {
     enable: true,
     title: '我很可爱，请给我钱！',
+    description: '投喂作者可以获得好运buff哦~✨',
     methods: [
       {
         name: '支付宝',
