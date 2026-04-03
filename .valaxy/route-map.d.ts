@@ -97,6 +97,20 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/图论': RouteRecordInfo<
+      '/posts/图论',
+      '/posts/%E5%9B%BE%E8%AE%BA',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/复杂度分析与STL选讲': RouteRecordInfo<
+      '/posts/复杂度分析与STL选讲',
+      '/posts/%E5%A4%8D%E6%9D%82%E5%BA%A6%E5%88%86%E6%9E%90%E4%B8%8ESTL%E9%80%89%E8%AE%B2',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/数论': RouteRecordInfo<
       '/posts/数论',
       '/posts/%E6%95%B0%E8%AE%BA',
@@ -104,9 +118,44 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/随机数生成': RouteRecordInfo<
+      '/posts/随机数生成',
+      '/posts/%E9%9A%8F%E6%9C%BA%E6%95%B0%E7%94%9F%E6%88%90',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/git': RouteRecordInfo<
+      '/posts/git',
+      '/posts/git',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/hello-valaxy': RouteRecordInfo<
       '/posts/hello-valaxy',
       '/posts/hello-valaxy',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/linux操作': RouteRecordInfo<
+      '/posts/linux操作',
+      '/posts/linux%E6%93%8D%E4%BD%9C',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/python虚拟环境': RouteRecordInfo<
+      '/posts/python虚拟环境',
+      '/posts/python%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/vscode': RouteRecordInfo<
+      '/posts/vscode',
+      '/posts/vscode',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -191,15 +240,57 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/图论.md': {
+      routes:
+        | '/posts/图论'
+      views:
+        | never
+    }
+    'pages/posts/复杂度分析与STL选讲.md': {
+      routes:
+        | '/posts/复杂度分析与STL选讲'
+      views:
+        | never
+    }
     'pages/posts/数论.md': {
       routes:
         | '/posts/数论'
       views:
         | never
     }
+    'pages/posts/随机数生成.md': {
+      routes:
+        | '/posts/随机数生成'
+      views:
+        | never
+    }
+    'pages/posts/git.md': {
+      routes:
+        | '/posts/git'
+      views:
+        | never
+    }
     'pages/posts/hello-valaxy.md': {
       routes:
         | '/posts/hello-valaxy'
+      views:
+        | never
+    }
+    'pages/posts/linux操作.md': {
+      routes:
+        | '/posts/linux操作'
+      views:
+        | never
+    }
+    'pages/posts/python虚拟环境.md': {
+      routes:
+        | '/posts/python虚拟环境'
+      views:
+        | never
+    }
+    'pages/posts/vscode.md': {
+      routes:
+        | '/posts/vscode'
       views:
         | never
     }
