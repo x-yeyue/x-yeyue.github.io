@@ -104,9 +104,16 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/复杂度分析与STL选讲': RouteRecordInfo<
-      '/posts/复杂度分析与STL选讲',
+    '/posts/复杂度分析与STL选讲/': RouteRecordInfo<
+      '/posts/复杂度分析与STL选讲/',
       '/posts/%E5%A4%8D%E6%9D%82%E5%BA%A6%E5%88%86%E6%9E%90%E4%B8%8ESTL%E9%80%89%E8%AE%B2',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/子序列自动机': RouteRecordInfo<
+      '/posts/子序列自动机',
+      '/posts/%E5%AD%90%E5%BA%8F%E5%88%97%E8%87%AA%E5%8A%A8%E6%9C%BA',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -114,13 +121,6 @@ declare module 'vue-router/auto-routes' {
     '/posts/数论': RouteRecordInfo<
       '/posts/数论',
       '/posts/%E6%95%B0%E8%AE%BA',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/随机数生成': RouteRecordInfo<
-      '/posts/随机数生成',
-      '/posts/%E9%9A%8F%E6%9C%BA%E6%95%B0%E7%94%9F%E6%88%90',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -180,13 +180,13 @@ declare module 'vue-router/auto-routes' {
    * @internal
    */
   export interface _RouteFileInfoMap {
-    'node_modules/.pnpm/valaxy-theme-yun@0.28.4_magicast@0.5.2_vue@3.5.22_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/index.vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@0.28.4_mag_504066cbfad75f6716cfc76600226f28/node_modules/valaxy-theme-yun/pages/index.vue': {
       routes:
         | '/'
       views:
         | never
     }
-    'node_modules/.pnpm/valaxy@0.28.4_@babel+parser@7.29.2_@emnapi+core@1.9.1_@emnapi+runtime@1.9.1_@nuxt+kit@3_af8debf82d1e16a7aac18837d0cf58af/node_modules/valaxy/client/pages/[...path].vue': {
+    'node_modules/.pnpm/valaxy@0.28.4_@babel+parser_af8debf82d1e16a7aac18837d0cf58af/node_modules/valaxy/client/pages/[...path].vue': {
       routes:
         | '/[...path]'
       views:
@@ -228,13 +228,13 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'node_modules/.pnpm/valaxy-theme-yun@0.28.4_magicast@0.5.2_vue@3.5.22_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@0.28.4_mag_504066cbfad75f6716cfc76600226f28/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
       routes:
         | '/page/[page]'
       views:
         | never
     }
-    'node_modules/.pnpm/valaxy-theme-yun@0.28.4_magicast@0.5.2_vue@3.5.22_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@0.28.4_mag_504066cbfad75f6716cfc76600226f28/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
       routes:
         | '/posts/'
       views:
@@ -246,21 +246,21 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/复杂度分析与STL选讲.md': {
+    'pages/posts/复杂度分析与STL选讲/index.md': {
       routes:
-        | '/posts/复杂度分析与STL选讲'
+        | '/posts/复杂度分析与STL选讲/'
+      views:
+        | never
+    }
+    'pages/posts/子序列自动机.md': {
+      routes:
+        | '/posts/子序列自动机'
       views:
         | never
     }
     'pages/posts/数论.md': {
       routes:
         | '/posts/数论'
-      views:
-        | never
-    }
-    'pages/posts/随机数生成.md': {
-      routes:
-        | '/posts/随机数生成'
       views:
         | never
     }
