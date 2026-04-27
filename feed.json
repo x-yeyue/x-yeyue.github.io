@@ -1,0 +1,122 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "x_yeyue 的小站",
+    "home_page_url": "https://x-yeyue.github.io/",
+    "feed_url": "https://x-yeyue.github.io/feed.json",
+    "description": "一个普通大学生的成长记录，关于代码、关于学习、关于生活。",
+    "icon": "https://x-yeyue.github.io/images/avatar.jpg",
+    "author": {
+        "name": "x_yeyue",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "https://x-yeyue.github.io/posts/子序列自动机",
+            "content_html": "<h1>子序列自动机</h1>\n<h2>基本概念</h2>\n<blockquote>\n<p><strong>子序列自动机</strong> 是一种高效处理 <em>子序列匹配</em> 问题的数据结构。</p>\n</blockquote>\n<p><strong>核心思想：</strong> 预处理出从每个位置 $i$ 开始(包括 $i$ )，每个字符</p>\n<br/><p>访问 <a href=\"https://x-yeyue.github.io/posts/子序列自动机\" target=\"_blank\">https://x-yeyue.github.io/posts/子序列自动机</a> 阅读全文。</p>",
+            "url": "https://x-yeyue.github.io/posts/子序列自动机",
+            "title": "子序列自动机",
+            "date_modified": "2026-04-11T15:57:43.000Z",
+            "date_published": "2026-04-11T15:57:43.000Z",
+            "author": {
+                "name": "x_yeyue",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://x-yeyue.github.io/posts/git",
+            "content_html": "<h1>设置身份信息</h1>\n<h2>设置SSH连接方式</h2>\n<p>通过公钥和私钥来验证身份。<br>\n<code>ssh-keygen -t rsa -C email.com</code><br>\n执行该命令会生成公钥和私钥。<br>\n默认生成至该目录的.ssh</p>\n<br/><p>访问 <a href=\"https://x-yeyue.github.io/posts/git\" target=\"_blank\">https://x-yeyue.github.io/posts/git</a> 阅读全文。</p>",
+            "url": "https://x-yeyue.github.io/posts/git",
+            "title": "git基本操作",
+            "date_modified": "2026-04-03T21:40:30.000Z",
+            "date_published": "2026-04-03T21:40:30.000Z",
+            "author": {
+                "name": "x_yeyue",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://x-yeyue.github.io/posts/linux操作",
+            "content_html": "<h3>查看电脑系统架构</h3>\n<p><code>uname -a</code></p>\n<h3>查看系统信息</h3>\n<p>$neofetch$</p>\n<h3>安装软件包</h3>\n<h4><code>dpkg -i 安装包名.deb</code></h4>\n<p>其他常见的 dpkg 选项</p>\n<br/><p>访问 <a href=\"https://x-yeyue.github.io/posts/linux操作\" target=\"_blank\">https://x-yeyue.github.io/posts/linux操作</a> 阅读全文。</p>",
+            "url": "https://x-yeyue.github.io/posts/linux操作",
+            "title": "linux操作",
+            "date_modified": "2026-04-03T21:40:30.000Z",
+            "date_published": "2026-04-03T21:40:30.000Z",
+            "author": {
+                "name": "x_yeyue",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://x-yeyue.github.io/posts/python虚拟环境",
+            "content_html": "<h1>生成 <code>.venv</code> 文件夹</h1>\n<pre><code class=\"language-bash\">python3 -m venv .venv\n# 若提示 &quot;python 不是内部命令&quot;，改用 &quot;python3&quot;\n</code></pre>\n<h1>激活虚拟环境</h1>\n<h1></h1>\n<br/><p>访问 <a href=\"https://x-yeyue.github.io/posts/python虚拟环境\" target=\"_blank\">https://x-yeyue.github.io/posts/python虚拟环境</a> 阅读全文。</p>",
+            "url": "https://x-yeyue.github.io/posts/python虚拟环境",
+            "title": "python虚拟环境",
+            "date_modified": "2026-04-03T21:40:30.000Z",
+            "date_published": "2026-04-03T21:40:30.000Z",
+            "author": {
+                "name": "x_yeyue",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://x-yeyue.github.io/posts/vscode",
+            "content_html": "<h1>快捷键</h1>\n<h2>窗口快捷键</h2>\n<p><strong>打开|关闭左栏</strong> <code>ctrl + D</code></p>\n<p><strong>打开|关闭下栏</strong> <code>ctrl + J</code></p>\n<h2>打开项目</h2>\n<p><code>ctrl + K &amp; ctrl + O</code></p>\n<h1></h1>\n<br/><p>访问 <a href=\"https://x-yeyue.github.io/posts/vscode\" target=\"_blank\">https://x-yeyue.github.io/posts/vscode</a> 阅读全文。</p>",
+            "url": "https://x-yeyue.github.io/posts/vscode",
+            "title": "vscode快捷键及c++文件配置",
+            "date_modified": "2026-04-03T21:40:30.000Z",
+            "date_published": "2026-04-03T21:40:30.000Z",
+            "author": {
+                "name": "x_yeyue",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://x-yeyue.github.io/posts/图论",
+            "content_html": "<h1>链式前向星</h1>\n<pre><code class=\"language-c++\">// 最大节点数\nconst int MAXN = 10 + 5;\n// 最大边数\nconst int MAXM = 20 + 5;\nint head[MAXN]; /</code></pre>\n<br/><p>访问 <a href=\"https://x-yeyue.github.io/posts/图论\" target=\"_blank\">https://x-yeyue.github.io/posts/图论</a> 阅读全文。</p>",
+            "url": "https://x-yeyue.github.io/posts/图论",
+            "title": "图论",
+            "date_modified": "2026-04-03T21:40:30.000Z",
+            "date_published": "2026-04-03T21:40:30.000Z",
+            "author": {
+                "name": "x_yeyue",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://x-yeyue.github.io/posts/复杂度分析与STL选讲/index",
+            "content_html": "<h1>复杂度分析与STL选讲+数据结构</h1>\n<h2>时间复杂度</h2>\n<h3>选择排序</h3>\n<p>给一个长度为 $n$ 的数组 $arr$, 对该数组进行递增排序。<br>\n$$<br>\n\\begin{split}<br>\n0, 1,</p>\n<br/><p>访问 <a href=\"https://x-yeyue.github.io/posts/复杂度分析与STL选讲/index\" target=\"_blank\">https://x-yeyue.github.io/posts/复杂度分析与STL选讲/index</a> 阅读全文。</p>",
+            "url": "https://x-yeyue.github.io/posts/复杂度分析与STL选讲/index",
+            "title": "复杂度分析与STL选讲",
+            "date_modified": "2026-04-03T21:40:30.000Z",
+            "date_published": "2026-04-03T21:40:30.000Z",
+            "author": {
+                "name": "x_yeyue",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://x-yeyue.github.io/posts/数论",
+            "content_html": "<h1>数论</h1>\n<h2>定理</h2>\n<h3>算数基本定理(唯一分解定理)</h3>\n<blockquote>\n<p><strong>算数基本定理</strong>($fundamental ~ theorem ~ of ~ arithmetic$, 又称**唯一分解定理</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://x-yeyue.github.io/posts/数论\" target=\"_blank\">https://x-yeyue.github.io/posts/数论</a> 阅读全文。</p>",
+            "url": "https://x-yeyue.github.io/posts/数论",
+            "title": "数论",
+            "date_modified": "2026-02-20T17:29:01.000Z",
+            "date_published": "2026-02-20T17:29:01.000Z",
+            "author": {
+                "name": "x_yeyue",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://x-yeyue.github.io/posts/hello-valaxy",
+            "content_html": "<h2>Valaxy</h2>\n<p>Next Generation Static Blog Framework.</p>\n<p>Write your first post!</p>\n<h2>Usage</h2>\n<p>Modify `valaxy</p>\n<br/><p>访问 <a href=\"https://x-yeyue.github.io/posts/hello-valaxy\" target=\"_blank\">https://x-yeyue.github.io/posts/hello-valaxy</a> 阅读全文。</p>",
+            "url": "https://x-yeyue.github.io/posts/hello-valaxy",
+            "title": "Hello, Valaxy!",
+            "date_modified": "2022-04-01T00:00:00.000Z",
+            "date_published": "2022-04-01T00:00:00.000Z",
+            "author": {
+                "name": "x_yeyue",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}

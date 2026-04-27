@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>x_yeyue 的小站</title>
+        <link>https://x-yeyue.github.io/</link>
+        <description>一个普通大学生的成长记录，关于代码、关于学习、关于生活。</description>
+        <lastBuildDate>Mon, 27 Apr 2026 12:16:01 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>x_yeyue 的小站</title>
+            <url>https://x-yeyue.github.io/images/avatar.jpg</url>
+            <link>https://x-yeyue.github.io/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2026 © x_yeyue</copyright>
+        <atom:link href="https://x-yeyue.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[子序列自动机]]></title>
+            <link>https://x-yeyue.github.io/posts/子序列自动机</link>
+            <guid isPermaLink="false">https://x-yeyue.github.io/posts/子序列自动机</guid>
+            <pubDate>Sat, 11 Apr 2026 15:57:43 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>子序列自动机</h1>
+<h2>基本概念</h2>
+<blockquote>
+<p><strong>子序列自动机</strong> 是一种高效处理 <em>子序列匹配</em> 问题的数据结构。</p>
+</blockquote>
+<p><strong>核心思想：</strong> 预处理出从每个位置 $i$ 开始(包括 $i$ )，每个字符</p>
+<br/><p>访问 <a href="https://x-yeyue.github.io/posts/子序列自动机" target="_blank">https://x-yeyue.github.io/posts/子序列自动机</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (x_yeyue)</author>
+        </item>
+        <item>
+            <title><![CDATA[git基本操作]]></title>
+            <link>https://x-yeyue.github.io/posts/git</link>
+            <guid isPermaLink="false">https://x-yeyue.github.io/posts/git</guid>
+            <pubDate>Fri, 03 Apr 2026 21:40:30 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>设置身份信息</h1>
+<h2>设置SSH连接方式</h2>
+<p>通过公钥和私钥来验证身份。<br>
+<code>ssh-keygen -t rsa -C email.com</code><br>
+执行该命令会生成公钥和私钥。<br>
+默认生成至该目录的.ssh</p>
+<br/><p>访问 <a href="https://x-yeyue.github.io/posts/git" target="_blank">https://x-yeyue.github.io/posts/git</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (x_yeyue)</author>
+        </item>
+        <item>
+            <title><![CDATA[linux操作]]></title>
+            <link>https://x-yeyue.github.io/posts/linux操作</link>
+            <guid isPermaLink="false">https://x-yeyue.github.io/posts/linux操作</guid>
+            <pubDate>Fri, 03 Apr 2026 21:40:30 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>查看电脑系统架构</h3>
+<p><code>uname -a</code></p>
+<h3>查看系统信息</h3>
+<p>$neofetch$</p>
+<h3>安装软件包</h3>
+<h4><code>dpkg -i 安装包名.deb</code></h4>
+<p>其他常见的 dpkg 选项</p>
+<br/><p>访问 <a href="https://x-yeyue.github.io/posts/linux操作" target="_blank">https://x-yeyue.github.io/posts/linux操作</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (x_yeyue)</author>
+        </item>
+        <item>
+            <title><![CDATA[python虚拟环境]]></title>
+            <link>https://x-yeyue.github.io/posts/python虚拟环境</link>
+            <guid isPermaLink="false">https://x-yeyue.github.io/posts/python虚拟环境</guid>
+            <pubDate>Fri, 03 Apr 2026 21:40:30 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>生成 <code>.venv</code> 文件夹</h1>
+<pre><code class="language-bash">python3 -m venv .venv
+# 若提示 &quot;python 不是内部命令&quot;，改用 &quot;python3&quot;
+</code></pre>
+<h1>激活虚拟环境</h1>
+<h1></h1>
+<br/><p>访问 <a href="https://x-yeyue.github.io/posts/python虚拟环境" target="_blank">https://x-yeyue.github.io/posts/python虚拟环境</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (x_yeyue)</author>
+        </item>
+        <item>
+            <title><![CDATA[vscode快捷键及c++文件配置]]></title>
+            <link>https://x-yeyue.github.io/posts/vscode</link>
+            <guid isPermaLink="false">https://x-yeyue.github.io/posts/vscode</guid>
+            <pubDate>Fri, 03 Apr 2026 21:40:30 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>快捷键</h1>
+<h2>窗口快捷键</h2>
+<p><strong>打开|关闭左栏</strong> <code>ctrl + D</code></p>
+<p><strong>打开|关闭下栏</strong> <code>ctrl + J</code></p>
+<h2>打开项目</h2>
+<p><code>ctrl + K &amp; ctrl + O</code></p>
+<h1></h1>
+<br/><p>访问 <a href="https://x-yeyue.github.io/posts/vscode" target="_blank">https://x-yeyue.github.io/posts/vscode</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (x_yeyue)</author>
+        </item>
+        <item>
+            <title><![CDATA[图论]]></title>
+            <link>https://x-yeyue.github.io/posts/图论</link>
+            <guid isPermaLink="false">https://x-yeyue.github.io/posts/图论</guid>
+            <pubDate>Fri, 03 Apr 2026 21:40:30 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>链式前向星</h1>
+<pre><code class="language-c++">// 最大节点数
+const int MAXN = 10 + 5;
+// 最大边数
+const int MAXM = 20 + 5;
+int head[MAXN]; /</code></pre>
+<br/><p>访问 <a href="https://x-yeyue.github.io/posts/图论" target="_blank">https://x-yeyue.github.io/posts/图论</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (x_yeyue)</author>
+        </item>
+        <item>
+            <title><![CDATA[复杂度分析与STL选讲]]></title>
+            <link>https://x-yeyue.github.io/posts/复杂度分析与STL选讲/index</link>
+            <guid isPermaLink="false">https://x-yeyue.github.io/posts/复杂度分析与STL选讲/index</guid>
+            <pubDate>Fri, 03 Apr 2026 21:40:30 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>复杂度分析与STL选讲+数据结构</h1>
+<h2>时间复杂度</h2>
+<h3>选择排序</h3>
+<p>给一个长度为 $n$ 的数组 $arr$, 对该数组进行递增排序。<br>
+$$<br>
+\begin{split}<br>
+0, 1,</p>
+<br/><p>访问 <a href="https://x-yeyue.github.io/posts/复杂度分析与STL选讲/index" target="_blank">https://x-yeyue.github.io/posts/复杂度分析与STL选讲/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (x_yeyue)</author>
+        </item>
+        <item>
+            <title><![CDATA[数论]]></title>
+            <link>https://x-yeyue.github.io/posts/数论</link>
+            <guid isPermaLink="false">https://x-yeyue.github.io/posts/数论</guid>
+            <pubDate>Fri, 20 Feb 2026 17:29:01 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>数论</h1>
+<h2>定理</h2>
+<h3>算数基本定理(唯一分解定理)</h3>
+<blockquote>
+<p><strong>算数基本定理</strong>($fundamental ~ theorem ~ of ~ arithmetic$, 又称**唯一分解定理</p>
+</blockquote>
+<br/><p>访问 <a href="https://x-yeyue.github.io/posts/数论" target="_blank">https://x-yeyue.github.io/posts/数论</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (x_yeyue)</author>
+        </item>
+        <item>
+            <title><![CDATA[Hello, Valaxy!]]></title>
+            <link>https://x-yeyue.github.io/posts/hello-valaxy</link>
+            <guid isPermaLink="false">https://x-yeyue.github.io/posts/hello-valaxy</guid>
+            <pubDate>Fri, 01 Apr 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Valaxy</h2>
+<p>Next Generation Static Blog Framework.</p>
+<p>Write your first post!</p>
+<h2>Usage</h2>
+<p>Modify `valaxy</p>
+<br/><p>访问 <a href="https://x-yeyue.github.io/posts/hello-valaxy" target="_blank">https://x-yeyue.github.io/posts/hello-valaxy</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (x_yeyue)</author>
+        </item>
+    </channel>
+</rss>
